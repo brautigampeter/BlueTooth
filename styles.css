@@ -2,6 +2,10 @@ body {
   font-family: sans-serif;
   background-attachment: fixed;
   background-size: cover;
+  background-image: url(hatter.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 #content {
@@ -57,4 +61,36 @@ table {
 table {
   margin-right: 20px;
   background-color: rgba(227, 225, 233, 0.3);
+  border-collapse: collapse;
+}
+
+th{
+  background-color: #0A82F7;
+  color: white;
+  padding: 15px;
+  border: 1px solid black;
+  text-align: center;
+  
+}
+
+td{
+  padding: 15px;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.betu{
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: yellow;
 }
